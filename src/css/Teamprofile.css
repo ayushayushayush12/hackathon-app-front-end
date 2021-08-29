@@ -1,0 +1,110 @@
+body {
+    background-color: #63817d;
+    color: white;
+   
+    font-family: Arial;
+    text-align: center;
+  }
+  
+
+.teampage
+{
+border:5px rgb(2, 2, 2) solid;
+padding: 50px;
+display:flex;
+flex-direction:row;
+flex-wrap:nowrap;
+justify-content:space-between;
+align-items:flex-start;
+align-content:stretch;
+height: 1000px;
+}
+.team_name
+{
+  border:3px rgb(2, 2, 2) solid;
+padding: 10px;
+font-size: 15px;
+height: 300px;
+width:300px;
+align-self:flex-start;
+}
+.highschool
+{
+  border:3px rgb(2, 2, 2) solid;
+padding: 10px;
+font-size: 15px;
+height: 300px;
+width:300px;
+align-self:flex-start;
+}
+.names
+{
+  border:3px rgb(2, 2, 2) solid;
+padding: 10px;
+font-size: 15px;
+height: 300px;
+width:300px;
+align-self:flex-start;
+}
+.struggle
+{
+  border:3px rgb(2, 2, 2) solid;
+padding: 10px;
+font-size: 15px;
+height: 300px;
+width:300px;
+align-self:flex-start;
+}
+.languages
+{
+  border:3px rgb(2, 2, 2) solid;
+padding: 10px;
+font-size: 15px;
+height: 300px;
+width:300px;
+align-self:flex-start;
+}
+.projectIdea
+{
+  border:3px rgb(2, 2, 2) solid;
+padding: 10px;
+font-size: 15px;
+height: 300px;
+width:300px;
+align-self:flex-start;
+}
+.location
+{
+  border:3px rgb(2, 2, 2) solid;
+padding: 10px;
+font-size: 15px;
+height: 300px;
+width:300px;
+align-self:flex-start;
+}
+.contact
+{
+  border:3px rgb(2, 2, 2) solid;
+padding: 10px;
+font-size: 15px;
+height: 300px;
+width:300px;
+align-self:flex-start;
+}
+.submit
+{
+  font-size: 500px;
+}
+.fullP
+{
+  border:7px rgb(2, 2, 2) solid;
+  padding: 50px;
+  font-size: 15px;
+  height: 300px;
+  width:800px;
+  align-self:stretch;
+  flex-shrink:0;
+  order:9;
+  
+       
+}
