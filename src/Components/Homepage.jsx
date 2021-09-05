@@ -55,9 +55,14 @@ export default class App extends Component {
             </div>
             <div className="right_container">
             <div className="Itinerary">
-                <h1>things</h1>
+                <h2>This will be the Itinerary</h2>
+                <h1><iframe src="https://titanembeds.com/embed/457565571920166942" height="500" width="800" frameborder="0"></iframe></h1>
             </div>
             </div>
+            </div>
+            <div classname ="announcements">
+              <h3>Announcements</h3>
+              <h2><iframe src="https://titanembeds.com/embed/457565571920166942" height="500" width="800" frameborder="0"></iframe></h2>
             </div>
             </div>
         );
@@ -65,4 +70,3 @@ export default class App extends Component {
 };
 
 
-//export default Homepage;
