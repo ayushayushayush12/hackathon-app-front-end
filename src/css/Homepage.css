@@ -1,10 +1,10 @@
 .container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    align-items:stretch;
+    align-content:stretch;
     margin-top: 100px;
 
    
@@ -24,4 +24,32 @@
 .right_container {
     row-gap: 100px;
     
+}
+
+.Itinerary
+{
+     
+}
+.announcements
+{
+    align-self:flex-end;
+    flex-grow:1;
+    border:5px rgb(34, 21, 21) solid;
+    padding: 10px;
+    height: 100px;
+    width: 300px;
+}
+
+.faq
+{
+border:5px rgb(2, 2, 2) solid;
+padding: 50px;
+display:flex;
+flex-direction:row;
+flex-wrap:nowrap;
+justify-content:space-between;
+align-items:flex-start;
+align-content:stretch;
+height: 800px;
+width: 800px;
 }
