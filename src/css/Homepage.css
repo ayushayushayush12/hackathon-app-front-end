@@ -1,55 +1,53 @@
-.container {
+.container
+{display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:space-between;
+  align-items:stretch;
+  align-content:stretch;
+  margin-top:100px
+}
+.left_container
+{
+  display:flex;
+  flex-direction:column;
+  flex-wrap:wrap-reverse;
+  justify-content:space-between;
+  align-items:stretch;
+  align-content:center;
+  -moz-column-gap:20px;
+  column-gap:20px
+}
+.right_container{
+  row-gap:100px}
+  .Itinerary
+  {row-gap:10px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content:flex-start;
+    align-items:flex-start
+    ;align-content:stretch
+  }
+  .announcements
+  {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content:flex-start;
+    align-items:flex-end;
+    align-content:stretch
+  }
+  .faq
+  {
+    border:5px #020202 solid;
+    padding:50px;
     display:flex;
     flex-direction:row;
     flex-wrap:nowrap;
     justify-content:space-between;
-    align-items:stretch;
+    align-items:flex-start;
     align-content:stretch;
-    margin-top: 100px;
-
-   
-}
-.left_container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap-reverse;
-    justify-content: space-between;
-    align-items: stretch;
-    align-content: center;
-    column-gap: 20px;
-    
-   
-}
-
-.right_container {
-    row-gap: 100px;
-    
-}
-
-.Itinerary
-{
-     
-}
-.announcements
-{
-    align-self:flex-end;
-    flex-grow:1;
-    border:5px rgb(34, 21, 21) solid;
-    padding: 10px;
-    height: 100px;
-    width: 300px;
-}
-
-.faq
-{
-border:5px rgb(2, 2, 2) solid;
-padding: 50px;
-display:flex;
-flex-direction:row;
-flex-wrap:nowrap;
-justify-content:space-between;
-align-items:flex-start;
-align-content:stretch;
-height: 800px;
-width: 800px;
-}
+    height:800px;
+    width:800px
+  }

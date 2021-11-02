@@ -36,7 +36,9 @@ export class TeamSubmission extends Component{
                     <th>GithubLink</th>
                     <th>ProjectIdea</th>
                     <th>CodingLanguages</th>
-                    </tr></thead>
+                    </tr>
+                </thead>
+                    
                     <tbody>
                         {deps.map(dep=>
                             <tr key={dep.TeamId}>
@@ -51,15 +53,27 @@ export class TeamSubmission extends Component{
                             )}
                     </tbody>
                 
+                
             </Table>
-            <ButtonToolbar>
-                <Button varient='primary'
-                onClick={()=>this.setState({addModalShow:true})}>
-                    Add Submission
-                </Button>
+            
+
+            <div classname = "newbutton">
+            <Button varient='primary' onClick={()=>this.setState({addModalShow:true})}> Add Submission</Button>
                 <AddSubModal show={this.state.addModalShow}
                 onHide={addModalClose}/>
-            </ButtonToolbar>
+                
+            </div>    
+            
+            
+           
+
+                    
+               
+             
+    
+           
+            
+
             </div>
         )
     }

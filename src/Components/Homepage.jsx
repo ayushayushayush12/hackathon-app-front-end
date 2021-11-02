@@ -52,25 +52,19 @@ export default class App extends Component {
                 />
               </div>
             </div>
+            
             </div>
             <div className="right_container">
             <div className="Itinerary">
-                <h2>This will be the Itinerary</h2>
-<<<<<<< HEAD
-                <h1><iframe src="https://titanembeds.com/embed/457565571920166942" height="500" width="800" frameborder="0"></iframe></h1>
-=======
-                <h1><iframe src="https://titanembeds.com/embed/457565571920166942" height="600" width="1200" frameborder="0"></iframe></h1>
->>>>>>> bab4878d9fe58afdb93e624427cd5b3a7245b5c4
+                <h3>Itinerary</h3>
+                <h1><iframe src="https://titanembeds.com/embed/457565571920166942" height="500" width="700" frameborder="0"></iframe></h1>
             </div>
             </div>
             </div>
             <div classname ="announcements">
               <h3>Announcements</h3>
-<<<<<<< HEAD
-              <h2><iframe src="https://titanembeds.com/embed/457565571920166942" height="500" width="800" frameborder="0"></iframe></h2>
-=======
-              <h2><iframe src="https://titanembeds.com/embed/457565571920166942" height="600" width="1200" frameborder="0"></iframe></h2>
->>>>>>> bab4878d9fe58afdb93e624427cd5b3a7245b5c4
+              <h1><iframe src="https://titanembeds.com/embed/457565571920166942" height="500" width="700" frameborder="0"></iframe></h1>
+
             </div>
             </div>
         );

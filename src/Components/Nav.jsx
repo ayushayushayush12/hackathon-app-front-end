@@ -23,6 +23,9 @@ const Nav = () => {
         <div className="top_Sidebar">
 
           <div className="nav_buttons">
+          <div className = "image">
+          <img src="https://www.hyland.com/-/media/Project/Hyland/shared/new-brand/images/general/logos-hyland/hyland-logo.svg" width="200" height="100"></img>
+          </div>
             <Link to="/Homepage">
               <button className="button">Home</button>
             </Link>
@@ -50,7 +53,6 @@ const Nav = () => {
             <Link to="/Pastevents">
               <button className="button">Past Events</button>
             </Link>
-           
           </div>
         </div>
           <div className="middle_Content">
